@@ -1,0 +1,14 @@
+[package]
+name = "rust_runner"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+
+[dependencies]
+rust_runner_macros = { path = "../runner-macros" }
+
+async-trait.workspace = true
+serde = { workspace = true, features = ["derive"] }
+serde_yaml.workspace = true

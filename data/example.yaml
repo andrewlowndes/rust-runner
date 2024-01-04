@@ -1,0 +1,12 @@
+commands:
+  - name: a
+    do_this:
+      name: "test"
+      count: 1
+  - name: b
+    do_this:
+      name: "another"
+  - name: c
+    do_that:
+  - do_something_else:
+      name: { ref: b }
